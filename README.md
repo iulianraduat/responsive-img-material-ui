@@ -28,8 +28,10 @@ no* means that at least one of them should be defined or an exception is trigger
 ## Versions
 
 | ImgMaterialUi _uses_ | Material-ui | React  |
+|----------------------|-------------|--------|
 | -------------------: | :---------: | :----: |
 | 1.0.x                | 3.9.2       | 16.8.4 |
+| 1.1.x                | 3.9.3       | 16.8.6 |
 
 ### About versioning schema used for ImgMaterialUi
 
@@ -71,3 +73,7 @@ export default App;
 ### 1.0.0
 
 - img-material-ui is made publicly available
+
+### 1.1.0
+
+- Updated packages
