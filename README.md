@@ -23,6 +23,7 @@ The component accepts the props defined bellow in the table.
 | style | CSSProperties | no       | undefined | The style applied to the field                                                      |
 
 no* means that at least one of them should be defined or an exception is triggered.
+
 ---
 
 ## Versions
@@ -71,3 +72,7 @@ export default App;
 ### 1.0.1
 
 - responsive-img-material-ui is made publicly available
+
+### 1.0.2
+
+- Corrected the way we decide which provided src is used

@@ -1,6 +1,6 @@
 {
   "name": "responsive-img-material-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A material-ui component which display an image from different sources based on the page's current width (based on material-ui defined breakpoints).",
   "main": "lib/index.js",
   "sideEffects": false,
