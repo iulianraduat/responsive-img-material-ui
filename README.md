@@ -1,4 +1,4 @@
-# img-material-ui
+# responsive-img-material-ui
 
 A material-ui component which displays an image from different sources based on the page's current width (based on material-ui defined breakpoints).
 
@@ -10,7 +10,7 @@ The order of breakpoints: xs, sm, md, lg, xl. You can find [here](https://materi
 
 The component accepts the props defined bellow in the table.
 
-### Props accepted by ImgMaterialUi
+### Props accepted by ResonsiveImgMaterialUi
 
 | Name  | Type          | Required | Default   | Description                                                                         |
 |-------|---------------|----------|-----------|-------------------------------------------------------------------------------------|
@@ -27,17 +27,15 @@ no* means that at least one of them should be defined or an exception is trigger
 
 ## Versions
 
-| ImgMaterialUi _uses_ | Material-ui | React  |
-|----------------------|-------------|--------|
-| -------------------: | :---------: | :----: |
-| 1.0.x                | 3.9.2       | 16.8.4 |
-| 1.1.x                | 3.9.3       | 16.8.6 |
+| ResponsiveImgMaterialUi _uses_ | Material-ui | React  |
+|-------------------------------:|:-----------:|:------:|
+|                          1.0.x |    3.9.3    | 16.8.6 |
 
-### About versioning schema used for ImgMaterialUi
+### About versioning schema used for ResponsiveImgMaterialUi
 
-- Major - it will be increased if the major version of the dependat package changes or there are breaking changes in the code of ImgMaterialUi
+- Major - it will be increased if the major version of the dependat package changes or there are breaking changes in the code of ResponsiveImgMaterialUi
 - Minor - it will be increased if no major version of the dependat package changes, but there are changes of the minor or patch versions of it
-- Patch - it will be increased if there are no changes of the dependat packages, but there are non breaking changes in the code of ImgMaterialUi
+- Patch - it will be increased if there are no changes of the dependat packages, but there are non breaking changes in the code of ResponsiveImgMaterialUi
 
 ---
 
@@ -47,13 +45,13 @@ Displaying an image in three sizes based on the current window size:
 
 ```js
 import * as React from "react";
-import ImgMaterialUi from "img-material-ui";
+import ResponsiveImgMaterialUi from "responsive-img-material-ui";
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <ImgMaterialUi
+        <ResponsiveImgMaterialUi
           xs="/img/logo-small.jpg"
           md="/img/logo-medium.jpg"
           lg="/img/logo-large.jpg"
@@ -70,10 +68,6 @@ export default App;
 
 ## Changelog
 
-### 1.0.0
+### 1.0.1
 
-- img-material-ui is made publicly available
-
-### 1.1.0
-
-- Updated packages
+- responsive-img-material-ui is made publicly available

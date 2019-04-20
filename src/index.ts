@@ -1,1 +1,1 @@
-export * from './ImgMaterialUi';
+export * from './ResponsiveImgMaterialUi';
