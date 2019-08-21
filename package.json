@@ -1,13 +1,15 @@
 {
   "name": "responsive-img-material-ui",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "A material-ui component which display an image from different sources based on the page's current width (based on material-ui defined breakpoints).",
   "main": "lib/index.js",
   "sideEffects": false,
   "scripts": {
     "build": "rimraf ./lib && tsc",
     "deploy": "cross-env NODE_ENV=production npm run build && npm publish",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -c storybook",
+    "build-storybook": "build-storybook -c storybook -o docs"
   },
   "repository": {
     "type": "git",
@@ -34,25 +36,26 @@
   },
   "homepage": "https://github.com/iulian-radu-at/img-material-ui#readme",
   "dependencies": {
-    "@material-ui/core": "^4.2.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "@material-ui/core": "^4.3.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.5.4",
+    "@babel/core": "^7.5.5",
+    "@storybook/react": "^5.1.11",
     "@types/babel-core": "^6.25.6",
-    "@types/enzyme": "^3.10.2",
+    "@types/enzyme": "^3.10.3",
     "@types/enzyme-adapter-react-16": "^1.0.5",
-    "@types/react": "^16.8.23",
-    "@types/react-dom": "^16.8.4",
-    "@types/react-transition-group": "^2.9.2",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
     "@types/rimraf": "^2.0.2",
     "babel-core": "^6.26.3",
-    "babel-jest": "^24.8.0",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
     "cross-env": "^5.2.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
-    "rimraf": "^2.6.3",
+    "rimraf": "^3.0.0",
     "typescript": "^3.5.3"
   },
   "peerDependencies": {
