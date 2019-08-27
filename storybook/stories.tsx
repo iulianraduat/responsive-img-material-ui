@@ -14,6 +14,7 @@ const lg = 'https://img.shields.io/badge/width-lg-red';
 const xl = 'https://img.shields.io/badge/width-xl-9cf';
 
 storiesOf('ResponsiveImgMaterialUiProps', module)
+  .addParameters({ options: { showPanel: false } })
   .add('with disabled debug', () => (
     <div>
       <ResponsiveImgMaterialUiProps xs={xs} md={md} sm={sm} lg={lg} xl={xl} />
