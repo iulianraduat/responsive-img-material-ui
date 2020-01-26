@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export interface ImgMaterialUiProps extends React.Props<ResponsiveImgMaterialUi> {
+export interface ResponsiveImgMaterialUiProps extends React.Props<ResponsiveImgMaterialUi> {
   id?: string;
   lg?: string;
   md?: string;
@@ -10,7 +10,7 @@ export interface ImgMaterialUiProps extends React.Props<ResponsiveImgMaterialUi>
   xs?: string;
 }
 
-declare class ResponsiveImgMaterialUi extends React.Component<ImgMaterialUiProps> {}
+declare class ResponsiveImgMaterialUi extends React.Component<ResponsiveImgMaterialUiProps> {}
 
 declare module 'responsive-img-material-ui' {}
 

@@ -38,6 +38,7 @@ no* means that at least one of them should be defined or an exception is trigger
 |                          2.0.x |    4.0.2    | 16.8.6 |
 |                          2.1.x |    4.2.0    | 16.8.6 |
 |                          2.2.x |    4.3.3    | 16.9.0 |
+|                          2.3.x |    4.9.0    | 16.9.0 |
 
 ### About versioning schema used for ResponsiveImgMaterialUi
 
@@ -93,5 +94,9 @@ export default App;
 - Updated packages
 
 ### 2.2.0
+
+- Updated packages
+
+### 2.3.0
 
 - Updated packages
