@@ -41,6 +41,7 @@ no\* means that at least one of them should be defined or an exception is trigge
 |                          2.3.x |    4.9.0    | 16.9.0 |
 |                          2.4.x |    4.9.7    | 16.9.0 |
 |                          2.5.x |   4.10.2    | 16.9.0 |
+|                          2.6.x |   4.11.0    | 16.9.0 |
 
 ### About versioning schema used for ResponsiveImgMaterialUi
 
@@ -109,5 +110,9 @@ export default App;
 - Moved from npm to yarn
 
 ### 2.5.0
+
+- Updated packages
+
+### 2.6.0
 
 - Updated packages
