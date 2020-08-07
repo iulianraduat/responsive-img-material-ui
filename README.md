@@ -14,7 +14,7 @@ You can access the storybook for this component [here](https://iulian-radu-at.gi
 
 The component accepts the props defined bellow in the table.
 
-### Props accepted by ResonsiveImgMaterialUi
+### Props accepted by ResponsiveImgMaterialUi
 
 | Name  | Type          | Required | Default   | Description                                                                         |
 | ----- | ------------- | -------- | --------- | ----------------------------------------------------------------------------------- |
@@ -116,3 +116,7 @@ export default App;
 ### 2.6.0
 
 - Updated packages
+
+### 2.6.1
+
+- Fixed crash produced by "export \* from"
