@@ -1,4 +1,4 @@
-# responsive-img-material-ui ![Weekly downloads](https://img.shields.io/npm/dw/responsive-img-material-ui "Weekly downloads")
+# responsive-img-material-ui ![Weekly downloads](https://img.shields.io/npm/dw/responsive-img-material-ui 'Weekly downloads')
 
 A material-ui component which displays an image from different sources based on the page's current width (based on material-ui defined breakpoints).
 
@@ -32,16 +32,17 @@ no\* means that at least one of them should be defined or an exception is trigge
 
 ## Versions
 
-| ResponsiveImgMaterialUi _uses_ | Material-ui | React  |
-| -----------------------------: | :---------: | :----: |
-|                          1.0.x |    3.9.3    | 16.8.6 |
-|                          2.0.x |    4.0.2    | 16.8.6 |
-|                          2.1.x |    4.2.0    | 16.8.6 |
-|                          2.2.x |    4.3.3    | 16.9.0 |
-|                          2.3.x |    4.9.0    | 16.9.0 |
-|                          2.4.x |    4.9.7    | 16.9.0 |
-|                          2.5.x |   4.10.2    | 16.9.0 |
-|                          2.6.x |   4.11.0    | 16.9.0 |
+| ResponsiveImgMaterialUi _uses_ | Material-ui |      React       |
+| -----------------------------: | :---------: | :--------------: |
+|                          1.0.x |    3.9.3    |      16.8.6      |
+|                          2.0.x |    4.0.2    |      16.8.6      |
+|                          2.1.x |    4.2.0    |      16.8.6      |
+|                          2.2.x |    4.3.3    |      16.9.0      |
+|                          2.3.x |    4.9.0    |      16.9.0      |
+|                          2.4.x |    4.9.7    |      16.9.0      |
+|                          2.5.x |   4.10.2    |      16.9.0      |
+|                          2.6.x |   4.11.0    |      16.9.0      |
+|                          2.7.x |   4.11.3    | 16.9.0 or 17.0.0 |
 
 ### About versioning schema used for ResponsiveImgMaterialUi
 
@@ -56,18 +57,14 @@ no\* means that at least one of them should be defined or an exception is trigge
 Displaying an image in three sizes based on the current window size:
 
 ```js
-import * as React from "react";
-import ResponsiveImgMaterialUi from "responsive-img-material-ui";
+import * as React from 'react';
+import ResponsiveImgMaterialUi from 'responsive-img-material-ui';
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <ResponsiveImgMaterialUi
-          xs="/img/logo-small.jpg"
-          md="/img/logo-medium.jpg"
-          lg="/img/logo-large.jpg"
-        />
+        <ResponsiveImgMaterialUi xs="/img/logo-small.jpg" md="/img/logo-medium.jpg" lg="/img/logo-large.jpg" />
       </div>
     );
   }
@@ -120,3 +117,8 @@ export default App;
 ### 2.6.1
 
 - Fixed crash produced by "export \* from"
+
+### 2.7.0
+
+- Accepting React 17 as peerDependencies
+- Fixed security warnings
