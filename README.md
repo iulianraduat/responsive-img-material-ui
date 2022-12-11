@@ -43,6 +43,7 @@ no\* means that at least one of them should be defined or an exception is trigge
 |                          2.5.x |   4.10.2    |      16.9.0      |
 |                          2.6.x |   4.11.0    |      16.9.0      |
 |                          2.7.x |   4.11.3    | 16.9.0 or 17.0.0 |
+|                          3.0.x |   5.10.17   |     >=18.0.0     |
 
 ### About versioning schema used for ResponsiveImgMaterialUi
 
@@ -64,7 +65,11 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <ResponsiveImgMaterialUi xs="/img/logo-small.jpg" md="/img/logo-medium.jpg" lg="/img/logo-large.jpg" />
+        <ResponsiveImgMaterialUi
+          xs="/img/logo-small.jpg"
+          md="/img/logo-medium.jpg"
+          lg="/img/logo-large.jpg"
+        />
       </div>
     );
   }
@@ -122,3 +127,8 @@ export default App;
 
 - Accepting React 17 as peerDependencies
 - Fixed security warnings
+
+### 3.0.0
+
+- Migrated to material-ui 5
+- Supports minimum React 18

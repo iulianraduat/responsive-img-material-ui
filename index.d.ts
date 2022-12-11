@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export interface ResponsiveImgMaterialUiProps extends React.Props<ResponsiveImgMaterialUi> {
+export interface ResponsiveImgMaterialUiProps {
   id?: string;
   lg?: string;
   md?: string;
